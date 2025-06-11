@@ -1,0 +1,919 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-18T18:23:52.651Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Passage id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-24T17:27:12.114Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-04-17T20:33:02.091Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "1 - Ar condicionado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-04-17T20:33:06.763Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "2 - Alarme",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-04-17T20:33:20.653Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "3 - Airbag",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-04-17T21:25:31.198Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "1 - Chevrolet Onix",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-04-17T21:26:02.211Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "2 - Jeep Renegade",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-04-17T21:26:27.514Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "3 - Toyota Corolla",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-04-22T19:18:03.543Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-04-22T19:28:43.893Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Modelo\", \"Cor\", \"Acessorios\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-04-22T19:29:00.326Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-04-22T19:29:23.782Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-06-11T18:00:45.398Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": " - 32a41daa-fa4d-4afc-9713-5fddb96026ec",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add acessorio",
+    "content_type": 7,
+    "codename": "add_acessorio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change acessorio",
+    "content_type": 7,
+    "codename": "change_acessorio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete acessorio",
+    "content_type": 7,
+    "codename": "delete_acessorio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view acessorio",
+    "content_type": 7,
+    "codename": "view_acessorio"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add cor",
+    "content_type": 8,
+    "codename": "add_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change cor",
+    "content_type": 8,
+    "codename": "change_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete cor",
+    "content_type": 8,
+    "codename": "delete_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view cor",
+    "content_type": 8,
+    "codename": "view_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add modelo",
+    "content_type": 9,
+    "codename": "add_modelo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change modelo",
+    "content_type": 9,
+    "codename": "change_modelo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete modelo",
+    "content_type": 9,
+    "codename": "delete_modelo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view modelo",
+    "content_type": 9,
+    "codename": "view_modelo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add veiculo",
+    "content_type": 10,
+    "codename": "add_veiculo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change veiculo",
+    "content_type": 10,
+    "codename": "change_veiculo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete veiculo",
+    "content_type": 10,
+    "codename": "delete_veiculo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view veiculo",
+    "content_type": 10,
+    "codename": "view_veiculo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "acessorio"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "cor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "modelo"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "veiculo"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3kcgd91aydtqpzi60w9dy6xg7y9rwn37",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlleZ_2Bkp4zWGt7jQPIkeKkQtydREoBzRTz3sxbBFqXGtbOcxizuAgQp98uUnpy20F-ULtPMk1tmccod0UetMvblPl1Pdy_g0q9bmtWOjIk5wZGNXhWTnuLmnKGYpOOxm-JXM7oPBZbQJtkMLtIBsgbEJ8v1nI3cw:1u5Vu4:l-frWESjP2455HSBZIPyeJZhlyU-mfyxSEp7JxfOExg",
+    "expire_date": "2025-05-01T20:32:08.140Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5bflj1h9cg0px6x30joz71dh4jzgbc7i",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnxZx2bkp4zRLteLwkgR4qTCnF3iJQC2jcz76UG3NZx2FpZhonVWRl1-t0I86PUHfAd623Wea7rMpHeFX3Qpq8zl-flcP8ORmzjt-5i9sLBJRC2mJIrKRrog_TGEwThPlGJZImzA7CdeHIdoAHBXBijen8A4Pk4Qw:1uPPxD:L679ic4hxzOg6VNAfAk0F1llfLotQT9CbVuXwLp3Xu0",
+    "expire_date": "2025-06-25T18:13:39.733Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "60aibj2qccnugrjh11uyhrhmwzdui1oh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sLnSm:j0HQkjbNxWzfywH481e3iiy2qq08knrwB1ZLaagwRb0",
+    "expire_date": "2024-07-08T17:26:44.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bh2ui6pjkzocjja67gzboq0k9brg2y56",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlleZ_2Bkp4zWGt7jQPIkeKkQtydREoBzRTz3sxbBFqXGtbOcxizuAgQp98uUnpy20F-ULtPMk1tmccod0UetMvblPl1Pdy_g0q9bmtWOjIk5wZGNXhWTnuLmnKGYpOOxm-JXM7oPBZbQJtkMLtIBsgbEJ8v1nI3cw:1u7IqP:F4KeXpG0YWV7PqkTkbWUzfukmm1eYV6FCH7DTjNeijs",
+    "expire_date": "2025-05-06T18:59:45.897Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fgigqqlre5mrpmmq300z385s69xcgdwn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sVx5W:in5DI8MWFfqHmDnlx0MmxosvWqf31MVXNHqDywmdngc",
+    "expire_date": "2024-08-05T17:44:42.461Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gxfuwlraas2joe3drjnquz4zitqfhd8o",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnxZx2bkp4zRLteLwkgR4qTCnF3iJQC2jcz76UG3NZx2FpZhonVWRl1-t0I86PUHfAd623Wea7rMpHeFX3Qpq8zl-flcP8ORmzjt-5i9sLBJRC2mJIrKRrog_TGEwThPlGJZImzA7CdeHIdoAHBXBijen8A4Pk4Qw:1uPPkU:A5HLO66GBxmoQEmx7TJq1GHs8sLnCXpsDd-2badSBMY",
+    "expire_date": "2025-06-25T18:00:30.071Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kd26mwo8ptvnhwobqjf98k2jafx5h02p",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1siv9E:6pqbY5DtxpUL-kUHZUoEAbu9Bf9BwN77PXRJ8qRR36c",
+    "expire_date": "2024-09-10T12:18:08.259Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yjwv42hyi55wpakgz1o8ls91ty7eqe1u",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sJdUV:rY8hd_2m2u3YGGz5LW3BFQGgHfshutei7gPRDpzv9kY",
+    "expire_date": "2024-07-02T18:23:35.702Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ztwq4c522jjxisovsm7rnadvwzc2ixic",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlleZ_2Bkp4zWGt7jQPIkeKkQtydREoBzRTz3sxbBFqXGtbOcxizuAgQp98uUnpy20F-ULtPMk1tmccod0UetMvblPl1Pdy_g0q9bmtWOjIk5wZGNXhWTnuLmnKGYpOOxm-JXM7oPBZbQJtkMLtIBsgbEJ8v1nI3cw:1uNekl:YhCIgxYUtSSTM6Pf_9SkT65fv4nf1bY0ntmAshxvhiY",
+    "expire_date": "2025-06-20T21:37:31.172Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "32a41daa-fa4d-4afc-9713-5fddb96026ec",
+    "public_id": "350793bf-7cc8-4b37-8321-0c637cb3ab68",
+    "file": "images/350793bf-7cc8-4b37-8321-0c637cb3ab68.png",
+    "description": "",
+    "uploaded_on": "2025-06-11T18:00:45.397Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$PJtQ8Lmuj5NMqSrfceRBfI$dkA25ycuBaIewH7BGZvKRcvZT4qYcU8gy+x2QYD/F5s=",
+    "last_login": "2025-06-11T18:13:39.726Z",
+    "is_superuser": true,
+    "passage_id": "324321544235435",
+    "email": "a@a.com",
+    "name": "Superusuário",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "!guOeigiAEXjwTck0ZQ9oI58VjCo7jdEJhTzzyREJ",
+    "last_login": null,
+    "is_superuser": false,
+    "passage_id": "hdxkeqXbF8bp1Ql3dNJ0PoTB",
+    "email": "marcoandre@gmail.com",
+    "name": null,
+    "is_active": true,
+    "is_staff": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.acessorio",
+  "pk": 1,
+  "fields": {
+    "descricao": "Ar condicionado"
+  }
+},
+{
+  "model": "core.acessorio",
+  "pk": 2,
+  "fields": {
+    "descricao": "Alarme"
+  }
+},
+{
+  "model": "core.acessorio",
+  "pk": 3,
+  "fields": {
+    "descricao": "Airbag"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 1,
+  "fields": {
+    "nome": "Preto"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 2,
+  "fields": {
+    "nome": "Branco"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 3,
+  "fields": {
+    "nome": "Amarelo"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 4,
+  "fields": {
+    "nome": "Verde"
+  }
+},
+{
+  "model": "core.modelo",
+  "pk": 1,
+  "fields": {
+    "nome": "Onix",
+    "marca": "Chevrolet",
+    "categoria": "Hatchback"
+  }
+},
+{
+  "model": "core.modelo",
+  "pk": 2,
+  "fields": {
+    "nome": "Renegade",
+    "marca": "Jeep",
+    "categoria": "SUV"
+  }
+},
+{
+  "model": "core.modelo",
+  "pk": 3,
+  "fields": {
+    "nome": "Corolla",
+    "marca": "Toyota",
+    "categoria": "Sedã"
+  }
+},
+{
+  "model": "core.veiculo",
+  "pk": 1,
+  "fields": {
+    "ano": 2020,
+    "preco": "75000.00",
+    "modelo": 1,
+    "cor": 1,
+    "acessorios": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "core.veiculo",
+  "pk": 2,
+  "fields": {
+    "ano": 2018,
+    "preco": "50000.00",
+    "modelo": 3,
+    "cor": 2,
+    "acessorios": [
+      1,
+      2,
+      3
+    ]
+  }
+}
+]
