@@ -7,3 +7,10 @@ class VeiculoSerializers(ModelSerializer):
     class Meta:
         model = Veiculo
         fields = "__all__"
+
+
+class VeiculoListRetrieveSerializer(ModelSerializer):
+    class Meta:
+        model = Veiculo
+        fields = "__all__"
+        depth = 1
